@@ -1,0 +1,59 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background-color: white;
+
+}
+.header {
+    position: absolute;
+    width: 99%;
+    border: 1px solid black;
+}
+
+.nav-bar {
+    position: relative;
+    float: right;
+}
+
+.toevoegForm {
+    border: 1px solid black;
+    position: absolute;
+    height: fit-content;
+    width: fit-content;
+    top: 25%;
+    left: 50%;
+}
+
+.toevoegForm{
+    text-align: center;
+}
+
+.nav-bar .nav-ul .nav-li {
+    right: 150px;
+    list-style-type: none;
+    display: inline;
+    margin: 0.5rem;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.nav-bar .nav-ul .nav-li a{
+    text-decoration: none;
+    color: black;
+}
+
+.main-div {
+    border: 1px solid black;
+    position: absolute;
+    height: fit-content;
+    width: fit-content;
+    top: 25%;
+    left: 25%;
+}
+
+.main-div{
+    text-align: center;
+}
+
